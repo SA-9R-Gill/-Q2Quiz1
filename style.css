@@ -1,0 +1,84 @@
+/*MAIN*/
+	body {
+		padding: 5px;
+		color: #3C1E16;
+		font-family:"Lucida Console", "Courier New", monospace;
+		background: #E7D0BA;
+		text-align: center;
+	}
+
+/*TEXT*/
+	h1 {
+		text-align: center; 
+		color: #3C1E16; 
+		size: 130px; 
+		font-family:"Lucida Console", "Courier New", monospace;
+		animation: bounceInDown;
+		animation-duration: 2s;
+		background: #BA9178;
+		padding: 8px;
+		border: dotted #3C1E16 15px;
+		box-shadow: 0px 8px 10px 12px rgba(0,0,0,0.57);
+			-webkit-box-shadow: 0px 8px 10px 12px rgba(0,0,0,0.57);
+			-moz-box-shadow: 0px 8px 10px 12px rgba(0,0,0,0.57);
+	}
+
+	h2{
+		text-align: center; 
+		color: #3C1E16; 
+		size: 100px; 
+		font-family:"Lucida Console", "Courier New", monospace;
+		background: #BA9178;
+		padding: 8px;
+		box-shadow: 0px 8px 10px 12px rgba(0,0,0,0.57);
+			-webkit-box-shadow: 0px 8px 10px 12px rgba(0,0,0,0.57);
+			-moz-box-shadow: 0px 8px 10px 12px rgba(0,0,0,0.57);
+	}
+
+	h4 {
+		text-align: center; 
+		color: #3C1E16; 
+		size: 80px; 
+		font-family:"Lucida Console", "Courier New", monospace;
+	}
+
+	p {
+		border: dashed #3C1E16 8px;
+		padding: 18px;
+		size: 70px;
+		border-radius: 20%;
+	}
+
+/* CARDS */
+	.card {
+  		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  		transition: 0.3s;
+  		max-width: 600px; max-height: 800px;
+  		background:#EAD9C9 ;
+  	}
+/*  #B2866A 	*/
+
+	.card:hover {
+  		box-shadow: 0px 8px 10px 12px rgba(0,0,0,0.57);
+			-webkit-box-shadow: 0px 8px 10px 12px rgba(0,0,0,0.57);
+			-moz-box-shadow: 0px 8px 10px 12px rgba(0,0,0,0.57);
+	}
+
+	.container1 {
+  		padding: 15px;
+	}
+
+/* OTHERS */
+	img {
+  		border-radius: 10px 10px 0 0;
+  		max-height: 85%;
+  		max-width: 300px;
+  		border: solid #3C1E16 5px;
+	}
+
+	a {
+		text-align: left;
+	}
+
+/*https://coolors.co/c6caed-ada8be-a28497-6f5e5c-635a53-565649-505445-424739-34392d-b8beb1*/
+/*https://github.com/SA-9R-Gill/BS5-CARDS/blob/main/index.html*/
